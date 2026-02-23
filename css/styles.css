@@ -1,16 +1,23 @@
+
 body {
-    background: #121212;
+    background: #111;
     color: white;
     text-align: center;
     font-family: Arial;
 }
 
 canvas {
-    max-width: 90%;
-    margin-top: 20px;
-    border-radius: 12px;
+    max-width: 95%;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
-input, select {
-    margin: 10px;
+.sliders label {
+    display: block;
+    margin: 5px;
+}
+
+button {
+    margin: 8px;
+    padding: 8px 12px;
 }
